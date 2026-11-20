@@ -1,10 +1,9 @@
 [![Apache V2 License](http://img.shields.io/badge/license-Apache%20V2-blue.svg)](LICENSE)
-[![GitHub release](https://img.shields.io/github/release/rdkcentral/cjwt.svg)](CHANGELOG.md)
 
 ## Origin
 
 This repository is based on the original
-[cjwt](https://github.com/rdkcentral/cjwt) source code
+[cjwt](https://github.com/xmidt-org/cjwt) source code
 maintained under the xmidt-org organization. The code was copied into the
 rdkcentral organization, where ongoing maintenance and development now take place.
 
@@ -21,4 +20,14 @@ cd build
 cmake ..
 make
 make test
+make coverage
+firefox index.html
+```
+
+# Coding Formatter Settings
+
+Please format pull requests using the following command to keep the style consistent.
+
+```
+astyle -A10 -S -f -U -p -D -c -xC90 -xL
 ```
