@@ -1,4 +1,5 @@
 [![Apache V2 License](http://img.shields.io/badge/license-Apache%20V2-blue.svg)](LICENSE)
+[![GitHub release](https://img.shields.io/github/release/rdkcentral/cjwt.svg)](https://github.com/rdkcentral/cjwt/releases)
 
 ## Origin
 
