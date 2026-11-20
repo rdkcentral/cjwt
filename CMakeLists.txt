@@ -48,7 +48,7 @@ if (NOT BUILD_YOCTO)
 # base64 external dependency
 ExternalProject_Add(trower-base64
     PREFIX ${PREFIX_DIR}/trower-base64
-    GIT_REPOSITORY https://github.com/Comcast/trower-base64.git
+    GIT_REPOSITORY https://github.com/rdkcentral/trower-base64.git
     GIT_TAG "v1.1.2"
     CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=${INSTALL_DIR} -DBUILD_TESTING=OFF)
 add_library(libtrower-base64 STATIC SHARED IMPORTED)

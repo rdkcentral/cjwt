@@ -1,13 +1,17 @@
+[![Apache V2 License](http://img.shields.io/badge/license-Apache%20V2-blue.svg)](LICENSE)
+[![GitHub release](https://img.shields.io/github/release/rdkcentral/cjwt.svg)](https://github.com/rdkcentral/cjwt/releases)
+
+## Origin
+
+This repository is based on the original
+[cjwt](https://github.com/xmidt-org/cjwt) source code
+maintained under the xmidt-org organization. The code was copied into the
+rdkcentral organization, where ongoing maintenance and development now take place.
+
+- Original project: https://github.com/xmidt-org/cjwt
+- Current repository: https://github.com/rdkcentral/cjwt
+
 # cjwt
-
-A C JWT Implementation
-
-[![Build Status](https://travis-ci.org/xmidt-org/cjwt.svg?branch=master)](https://travis-ci.org/xmidt-org/cjwt)
-[![codecov.io](http://codecov.io/github/xmidt-org/cjwt/coverage.svg?branch=master)](http://codecov.io/github/xmidt-org/cjwt?branch=master)
-[![Coverity](https://img.shields.io/coverity/scan/11926.svg)]("https://scan.coverity.com/projects/comcast-cjwt)
-[![Apache V2 License](http://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/xmidt-org/cjwt/blob/master/LICENSE.txt)
-[![GitHub release](https://img.shields.io/github/release/xmidt-org/cjwt.svg)](CHANGELOG.md)
-
 
 # Building and Testing Instructions
 
